@@ -1,0 +1,44 @@
+.clearfix:before, .clearfix:after {
+    content: '';
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.nt-header h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+}
+
+.nt-heading-row {
+    background: #00A0D2;
+    color: #fff;
+    font-size: 14px;
+    padding: 7px;
+    margin-bottom: 10px;
+}
+
+.nt-head {
+    background: #23282D;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+    margin-top: 5px;
+}
+
+.nt-input-field {
+    display: block;
+    margin: 12px 0;
+}
+
+.nt-message {
+    background: #fff;
+    border-left: 4px solid #fff;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
+    margin-top: 10px;
+    padding: 1px 12px;
+    border-color: #7ad03b;
+}
